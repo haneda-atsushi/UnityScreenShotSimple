@@ -7,9 +7,8 @@ using System.IO;
 public class ScreenShotController : MonoBehaviour
 {
     public KeyCode m_ScreenShotButton = KeyCode.F9;
-
-    const string m_DefaultDir = "Screenshots";
-    string       m_FilePath   = null;
+    const string m_DefaultDir         = "Screenshots";
+    string       m_FilePath           = null;
 
     public void TriggerCapture( string file_path )
     {
